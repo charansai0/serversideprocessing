@@ -89,6 +89,7 @@ Publish the website in the given URL.
 </html>
 ~~~
 ## Views.py :
+~~~
 from django.shortcuts import render
 
 def areacalculation(request):
@@ -105,7 +106,7 @@ def areacalculation(request):
         context['b']=b
         context['h']=h
     return render(request,"mathapp/area.html",context)
-    ~~~
+~~~
 ## Urls.py :
 ~~~
 from django.contrib import admin
