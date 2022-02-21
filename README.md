@@ -120,7 +120,7 @@ urlpatterns = [
 ]
 ~~~
 ## OUTPUT:
-
+![OUTPUT](https://github.com/charansai0/serversideprocessing/blob/main/output.png?raw=true)
 
 ## RESULT:
 A website to perform mathematical calculations in server side is created.
