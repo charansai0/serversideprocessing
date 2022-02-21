@@ -20,7 +20,7 @@ Mention the path of the website in urls.py.
 Publish the website in the given URL.
 
 ## PROGRAM :
-### area.html :
+### Area.html :
 ~~~
 <!DOCTYPE html>
 <html>
@@ -87,7 +87,8 @@ Publish the website in the given URL.
     
 </body>
 </html>
-views.py :
+~~~
+## Views.py :
 from django.shortcuts import render
 
 def areacalculation(request):
@@ -104,7 +105,9 @@ def areacalculation(request):
         context['b']=b
         context['h']=h
     return render(request,"mathapp/area.html",context)
-urls.py :
+    ~~~
+## Urls.py :
+~~~
 from django.contrib import admin
 from django.urls import path
 from mathapp import views
