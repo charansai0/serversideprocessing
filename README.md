@@ -21,6 +21,7 @@ Publish the website in the given URL.
 
 ## PROGRAM :
 ### area.html :
+~~~
 <!DOCTYPE html>
 <html>
 <head>
@@ -113,6 +114,7 @@ urlpatterns = [
     path('areaoftriangle/',views.areacalculation,name="areaoftriangle"),
     path('',views.areacalculation,name="areaoftriangleroot")
 ]
+~~~
 ## OUTPUT:
 
 
